@@ -15,14 +15,14 @@ This is a Django React project for the stock monitoring platform. It provides AP
    open a new terminal for backend folder
 
 3. Create and activate a virtual environment:
+   
+      windows:
+      python -m venv myenv
+      myenv\Scripts\activate
 
-   windows:
-   python -m venv myenv
-   myenv\Scripts\activate
-
-   linux:
-   virtualenv virtualenv_name
-   source virtualenv_name/bin/activate
+      linux:
+      virtualenv virtualenv_name
+      source virtualenv_name/bin/activate
 
 5. Install dependencies:
    pip install -r requirements.txt
