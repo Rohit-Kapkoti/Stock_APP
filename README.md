@@ -1,6 +1,6 @@
 # Django-React Full Stack Project
 
-This is a Django backend project for the stock monitoring platform. It provides APIs for user authentication, managing watchlists, and fetching stock data from Alpha Vantage.
+This is a Django React project for the stock monitoring platform. It provides APIs for user authentication, managing watchlists, and fetching stock data from Alpha Vantage.
 
 ## Setup
 
@@ -15,6 +15,7 @@ This is a Django backend project for the stock monitoring platform. It provides 
    open a new terminal for backend folder
 
 3. Create and activate a virtual environment:
+
    windows:
    python -m venv myenv
    myenv\Scripts\activate
@@ -23,18 +24,19 @@ This is a Django backend project for the stock monitoring platform. It provides 
    virtualenv virtualenv_name
    source virtualenv_name/bin/activate
 
-4. Install dependencies:
+5. Install dependencies:
    pip install -r requirements.txt
 
-5. Apply migrations:
+6. Apply migrations:
    python manage.py makemigrations
    python manage.py migrate
 
-6. Run the development server:
+7. Run the development server:
    python manage.py runserver
 
-##FRONTEND 7. Navigate to the REACT frontend directory:
-cd frontend
+##FRONTEND 
+7. Navigate to the REACT frontend directory:
+   cd frontend
 
 8. Install dependencies:
    npm install
