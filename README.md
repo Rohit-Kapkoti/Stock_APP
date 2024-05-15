@@ -6,7 +6,7 @@ This is a Django backend project for the stock monitoring platform. It provides 
 
 1. Clone the repository:
 
-   git clone <repository_url>
+   git clone https://github.com/Rohit-Kapkoti/Stock_APP.git
 
 ##BACKEND
 
