@@ -16,25 +16,26 @@ This is a Django React project for the stock monitoring platform. It provides AP
 
 3. Create and activate a virtual environment:
    
-      windows:
+      #windows:
       python -m venv myenv
       myenv\Scripts\activate
 
-      linux:
+      #linux:
       virtualenv virtualenv_name
       source virtualenv_name/bin/activate
 
-5. Install dependencies:
+4. Install dependencies:
    pip install -r requirements.txt
 
-6. Apply migrations:
+5. Apply migrations:
    python manage.py makemigrations
    python manage.py migrate
 
-7. Run the development server:
+6. Run the development server:
    python manage.py runserver
 
 ##FRONTEND 
+
 7. Navigate to the REACT frontend directory:
    cd frontend
 
