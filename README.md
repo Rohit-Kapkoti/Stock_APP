@@ -12,7 +12,7 @@ This is a Django React project for the stock monitoring platform. It provides AP
 
 2. Navigate to the Django backend directory:
    cd backend
-   open a new terminal for backend folder
+   (open a new terminal for backend folder)
 
 3. Create and activate a virtual environment:
    
@@ -38,9 +38,10 @@ This is a Django React project for the stock monitoring platform. It provides AP
 
 7. Navigate to the REACT frontend directory:
    cd frontend
+   (open a new terminal for frontend folder)
 
-8. Install dependencies:
+9. Install dependencies:
    npm install
 
-9. Run the Frontend:
+10. Run the Frontend:
    npm run start
